@@ -1,0 +1,117 @@
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -okenizers (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -afetensors (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -okenizers (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -afetensors (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+Requirement already satisfied: torch in /scratch/apps/anaconda3/lib/python3.9/site-packages (1.12.1+cu113)
+Requirement already satisfied: torchvision in /scratch/apps/anaconda3/lib/python3.9/site-packages (0.13.1+cu113)
+Requirement already satisfied: numpy in /scratch/apps/anaconda3/lib/python3.9/site-packages (1.22.4)
+Requirement already satisfied: pandas in /scratch/apps/anaconda3/lib/python3.9/site-packages (1.4.2)
+Requirement already satisfied: pillow in /scratch/apps/anaconda3/lib/python3.9/site-packages (9.5.0)
+Requirement already satisfied: matplotlib in /scratch/apps/anaconda3/lib/python3.9/site-packages (3.5.1)
+Requirement already satisfied: wandb in /scratch/apps/anaconda3/lib/python3.9/site-packages (0.15.8)
+Requirement already satisfied: typing-extensions in /scratch/apps/anaconda3/lib/python3.9/site-packages (from torch) (4.5.0)
+Requirement already satisfied: requests in /scratch/apps/anaconda3/lib/python3.9/site-packages (from torchvision) (2.27.1)
+Requirement already satisfied: python-dateutil>=2.8.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from pandas) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from pandas) (2021.3)
+Requirement already satisfied: pyparsing>=2.2.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from matplotlib) (2.4.7)
+Requirement already satisfied: kiwisolver>=1.0.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from matplotlib) (1.3.2)
+Requirement already satisfied: fonttools>=4.22.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from matplotlib) (4.25.0)
+Requirement already satisfied: packaging>=20.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from matplotlib) (21.3)
+Requirement already satisfied: cycler>=0.10 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from matplotlib) (0.11.0)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.15.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (4.25.1)
+Requirement already satisfied: psutil>=5.0.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (5.8.0)
+Requirement already satisfied: appdirs>=1.4.3 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (1.4.4)
+Requirement already satisfied: PyYAML in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (6.0)
+Requirement already satisfied: setproctitle in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (1.3.2)
+Requirement already satisfied: setuptools in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (67.7.2)
+Requirement already satisfied: Click!=8.0.0,>=7.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (8.0.4)
+Requirement already satisfied: pathtools in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (0.1.2)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (0.4.0)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (1.29.2)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from wandb) (3.1.31)
+Requirement already satisfied: six>=1.4.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from docker-pycreds>=0.4.0->wandb) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb) (4.0.10)
+Requirement already satisfied: smmap<6,>=3.0.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb) (5.0.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from requests->torchvision) (1.26.16)
+Requirement already satisfied: charset-normalizer~=2.0.0 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from requests->torchvision) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from requests->torchvision) (2021.10.8)
+Requirement already satisfied: idna<4,>=2.5 in /scratch/apps/anaconda3/lib/python3.9/site-packages (from requests->torchvision) (3.3)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -okenizers (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -afetensors (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -okenizers (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -afetensors (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -okenizers (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -afetensors (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -rotobuf (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -pencv-python (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -okenizers (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -illow (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -afetensors (/scratch/apps/anaconda3/lib/python3.9/site-packages)
+Installing dependencies...
+Done
+cuda
+Epoch [1/50], Loss: 0.8969377279281616
+Epoch [2/50], Loss: 0.634453535079956
+Epoch [3/50], Loss: 0.8662928938865662
+Epoch [4/50], Loss: 0.5158517956733704
+Epoch [5/50], Loss: 0.6333070993423462
+Epoch [6/50], Loss: 0.4697733521461487
+Epoch [7/50], Loss: 0.36080169677734375
+Epoch [8/50], Loss: 0.36128121614456177
+Epoch [9/50], Loss: 0.4157312214374542
+Epoch [10/50], Loss: 0.2592341899871826
+Epoch [11/50], Loss: 0.10675308853387833
+Epoch [12/50], Loss: 0.06796057522296906
+Epoch [13/50], Loss: 0.08493048697710037
+Epoch [14/50], Loss: 0.06128055602312088
+Epoch [15/50], Loss: 0.10001598298549652
+Epoch [16/50], Loss: 0.014699144288897514
+Epoch [17/50], Loss: 0.027002913877367973
+Epoch [18/50], Loss: 0.005170250777155161
+Epoch [19/50], Loss: 0.007576421368867159
+Epoch [20/50], Loss: 0.002474769251421094
+Epoch [21/50], Loss: 0.0025729213375598192
+Epoch [22/50], Loss: 0.0004393568087834865
+Epoch [23/50], Loss: 0.0004938499187119305
+Epoch [24/50], Loss: 0.001036179019138217
+Epoch [25/50], Loss: 0.0015816238010302186
+Epoch [26/50], Loss: 0.0006815965170972049
+Epoch [27/50], Loss: 0.0005231968243606389
+Epoch [28/50], Loss: 0.00035180870327167213
+Epoch [29/50], Loss: 0.0009135840809904039
+Epoch [30/50], Loss: 0.001336202840320766
+Epoch [31/50], Loss: 0.0001597391237737611
+Epoch [32/50], Loss: 0.00023234730178955942
+Epoch [33/50], Loss: 0.0002698021417018026
+Epoch [34/50], Loss: 0.00012360649998299778
+Epoch [35/50], Loss: 0.0005019849049858749
+Epoch [36/50], Loss: 9.64436330832541e-05
+Epoch [37/50], Loss: 7.620047108503059e-05
+Epoch [38/50], Loss: 0.0003721662505995482
+Epoch [39/50], Loss: 0.00010668290633475408
+Epoch [40/50], Loss: 0.00025588064454495907
+Epoch [41/50], Loss: 0.00012414323282428086
+Epoch [42/50], Loss: 2.850309647328686e-05
+Epoch [43/50], Loss: 5.816009797854349e-05
+Epoch [44/50], Loss: 8.0721867561806e-05
+Epoch [45/50], Loss: 6.226226105354726e-05
+Epoch [46/50], Loss: 6.677929195575416e-05
+Epoch [47/50], Loss: 5.5083011829992756e-05
+Epoch [48/50], Loss: 3.8006652175681666e-05
+Epoch [49/50], Loss: 5.663692354573868e-05
+Epoch [50/50], Loss: 3.9651888073422015e-05
